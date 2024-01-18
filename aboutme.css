@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.about-us {
+  padding: 40px 0; /* Adjust padding for smaller screens */
+}
+
+.pic {
+  width: 100%; /* Make the image responsive */
+  max-width: 302px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.about {
+  width: 100%;
+  max-width: 1130px;
+  margin: 0 auto;
+  padding: 0 20px; /* Adjust padding for smaller screens */
+  display: flex;
+  flex-direction: column; /* Stack items in a column on smaller screens */
+  align-items: center;
+  justify-content: center;
+}
+
+
+.text {
+  width: 100%;
+  text-align: center; /* Center text on smaller screens */
+}
+.text span{
+    color: blue;
+}
+.text h2 {
+  font-size: 42px; /* Adjust font size for smaller screens */
+  margin-bottom: 10px;
+}
+
+.text h5 {
+  font-size: 18px; /* Adjust font size for smaller screens */
+  margin-bottom: 20px;
+}
+
+.text p {
+  font-size: 16px; /* Adjust font size for smaller screens */
+  line-height: 22px; /* Adjust line height for smaller screens */
+  letter-spacing: 0.5px; /* Adjust letter spacing for smaller screens */
+}
+
+.data {
+  margin-top: 20px; /* Adjust margin for smaller screens */
+}
+
+/* Media query for screens with a maximum width of 768 pixels */
+@media screen and (max-width: 768px) {
+  .about {
+    padding: 0 10px;
+  }
+
+  .text h2 {
+    font-size: 32px;
+  }
+
+  .text h5 {
+    font-size: 16px;
+  }
+
+  .text p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
